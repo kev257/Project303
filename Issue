@@ -1,0 +1,32 @@
+Project Phase 6 
+
+
+
+What is your security recommendation? Why did you choose it?
+
+The security recommendation that I am recommending is, “No sensitive data, such as passwords or pins, is exposed through the user interface.”. I chose this because our app can store sensitive information depending on the user's needs. Preemptively preparing to protect our users data can provide more peace of mind to end users.
+
+
+Who does the recommendation benefit (end-user, developer, etc.)?
+This recommendation benefits both the end-user and the developer. For the end user they can be confident that if their device is ever compromised that their private information on the app cannot be easily accessible. Guarding against any compromising or private data from leaking helps protect the user from being black mailed or embarrassed in real life. This also benefits the developer because if it is revealed that a commercial product was released without any safeguards and displayed the users private information in plain text, this would cause customers to lose faith in the developer. This could also lead to potential lawsuits if the damage is severe enough.
+
+When would the recommendation have to be implemented (based on how serious the security risk is)?
+This recommendation should be implemented by the app's official release in stores. With the app not connecting to the internet at all and being completely local, this reduces the risk of online users getting access to the app somehow. But it's better to be safe rather than sorry.
+
+Why do you think your project needs your recommendation?
+Why I believe we need this is to ensure users data is safe and users can have peace of mind knowing that their sensitive data won't be easily accessed. 
+
+ How do you think your recommendation could be applied?
+I think that for this app we could encrypt the users information before we save it. 
+
+How feasible would the implementation be?
+We are currently using Async storage for data storage but we could implement Secure shared preferences on Android to store and retrieve encrypted data and react sensitive-info library to do the encrypting.. I believe this would be quite feasible to implement. First we would need to import react-native sensitive info and implement it so that it can encrypt and decrypt information. Then we would implement secure shared preferences to retrieve this information.  
+
+
+
+
+
+
+  
+
+
